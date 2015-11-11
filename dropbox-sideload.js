@@ -36,7 +36,7 @@ jQuery(document).ready(function (){
 					if( jQuery('#dropbox-stay-logged-in').prop('value') == '0' )
 						jQuery.getScript('http://www.dropbox.com/logout');
 			},
-
+			multiselect: true,
 			cancel: function() {},
 			linkType: "direct",
 
